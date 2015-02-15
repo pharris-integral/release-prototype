@@ -4,7 +4,7 @@
 
     <groupId>com.prototype</groupId>
     <artifactId>release-prototype</artifactId>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <scm>
         <connection>scm:git:git@github.com:pharris-integral/release-prototype.git</connection>
@@ -21,9 +21,11 @@
                 <version>2.5.1</version>
                 <configuration>
                     <developmentVersion>1.1.0-SNAPSHOT</developmentVersion>
-                    <releaseVersion>1.0.0-RC</releaseVersion>
+                    <releaseVersion>1.0.0</releaseVersion>
                     <tag>1.0.0</tag>
                     <branchName>release-1.0.0</branchName>
+                    <updateBranchVersions>true</updateBranchVersions>
+                    <updateWorkingCopyVersions>true</updateWorkingCopyVersions>
                 </configuration>
             </plugin>
         </plugins>
