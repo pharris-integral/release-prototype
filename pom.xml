@@ -4,13 +4,13 @@
 
     <groupId>com.prototype</groupId>
     <artifactId>release-prototype</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <scm>
         <connection>scm:git:git@github.com:pharris-integral/release-prototype.git</connection>
         <url>scm:git:git@github.com:pharris-integral/release-prototype.git</url>
         <developerConnection>scm:git:git@github.com:pharris-integral/release-prototype.git</developerConnection>
-        <tag>develop</tag>
+        <tag>release-1.0.0</tag>
     </scm>
 
     <build>
